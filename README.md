@@ -2,7 +2,9 @@
 
 ### Project Overview:
 
-EIC was among the leading motor insurance providers between 2014 and 2018. Despite their prominence, the company experienced persistent underwriting losses, ultimately ceasing operations in early 2019. This analysis explores the underlying financial challenges and key patterns that contributed to the company's downfall.
+EIC was among the leading motor insurance providers between 2014 and 2018. Despite their prominence, the company experienced persistent underwriting losses, ultimately ceasing operations in early 2019. 
+
+This analysis explores the underlying financial challenges and key patterns that contributed to the company's downfall.
 
  **Project Goals:**
 
@@ -11,24 +13,23 @@ EIC was among the leading motor insurance providers between 2014 and 2018. Despi
  3. Assess the effectiveness of risk assessment and pricing strategies.
  4. Provide data-driven insights to visualize trends, and support stakeholder understanding.
 
-    
- ### Data Summary:
-
- Rows analyzed: 508K
- 
- Timeframe: 2014 – 2018
 
  ### Data Structure Overview:
 
+ 
+<img width="610" align="center" alt="late_night_restaurants" src="https://github.com/riasingh16/EIC-Insurance-Policy-Analysis/blob/60c498973b26385a5e46e1015711965f646e261c/Images/datastruct.png">
 
-
+  - Rows analyzed: 508K
+  
+  - Timeframe: 2014 – 2018
+ 
  ### Executive Summary: 
 
 EIC’s financial deterioration was primarily driven by a mismatch between premium pricing and claim liabilities, particularly among high-risk vehicle usages like General     Cartage. Despite strong sales, inadequate underwriting discipline and flawed risk pricing led to compounding losses. A more data-driven, segmented pricing strategy and tighter  claims control—especially around commercial usage—could have mitigated the fallout.
 
-<img width="610" align="center" alt="late_night_restaurants" src="https://github.com/user-attachments/assets/37de970d-ef01-4300-af10-8801f3b0c2c1">
+<img width="610" align="center" alt="late_night_restaurants" src="https://github.com/riasingh16/EIC-Insurance-Policy-Analysis/blob/be790675cc8b41daf2a6a66d89cd7ba357ec7542/Images/desktop-1.png">
 
-<img width="610" align="center" alt="late_night_restaurants" src="https://github.com/user-attachments/assets/37de970d-ef01-4300-af10-8801f3b0c2c1">
+<img width="610" align="center" alt="late_night_restaurants" src="https://github.com/riasingh16/EIC-Insurance-Policy-Analysis/blob/be790675cc8b41daf2a6a66d89cd7ba357ec7542/Images/desktop-2.png">
 
  ### Insights:
 
@@ -65,4 +66,14 @@ EIC’s financial deterioration was primarily driven by a mismatch between premi
 
 - This segment was a major contributor to the company’s financial bleeding and may have been underpriced or underwritten without proper risk profiling.
 
- ### Recommendations:
+ ### Caveat:
+
+ The dataset may contain reporting inconsistencies across quarters, affecting overall completeness. Certain vehicle types or usage categories might be underrepresented. 
+ The absence of customer demographics and underwriting criteria limits deeper risk or behavior analysis.
+ 
+ Users are advised to consider these limitations when drawing conclusions or making comparative assessments.
+
+### Tools & Technologies:
+
+- Power BI: Data Modeling, Power Query (ETL), DAX (KPI calculations), Interactive Dashboards
+
